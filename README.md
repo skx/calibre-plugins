@@ -24,8 +24,8 @@ There are two ways to install this plugin, the first being via the command-line:
 
 The second way being via the Calibre GUI:
 
-* Click on "Preferences"
-* Click on "Plugins"
-* Click "Load plugin-from file"
-* Select `ResetRating/ResetRating.zip`".
+* Click on "Preferences".
+* Click on "Plugins".
+* Click "Load plugin-from file".
+* Select "`ResetRating/ResetRating.zip`".
 
