@@ -19,7 +19,7 @@ On that basis this plugin unilaterally sets the rating field to 0 for newly impo
 
 There are two ways to install this plugin, the first being via the command-line:
 
-    cd ./ResetRatings
+    cd ./ResetRating
     calibre-customize -b .
 
 The second way being via the Calibre GUI:
@@ -27,5 +27,5 @@ The second way being via the Calibre GUI:
 * Click on "Preferences"
 * Click on "Plugins"
 * Click "Load plugin-from file"
-* Select `ResetRatings/ResetRatings.zip`".
+* Select `ResetRating/ResetRating.zip`".
 
