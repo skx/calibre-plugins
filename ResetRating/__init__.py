@@ -9,7 +9,14 @@ class ResetRating(FileTypePlugin):
     version                 = (0, 0, 2)
     file_types              = set(['epub', 'mobi', 'lit', 'prc', 'azw3'])
     on_postimport           = True
-    minimum_calibre_version = (2,3,0)
+
+    #
+    # We need a very recent version due to previous releases breaking
+    # the post-import hook functionality.
+    #
+    # http://www.mobileread.com/forums/showthread.php?t=246678
+    #
+    minimum_calibre_version = (2,4,0)
 
     def run(self, path_to_ebook):
         '''
